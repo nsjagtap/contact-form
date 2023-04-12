@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="center">
+        <h1 id="captchaHeading">
+            Contact Information
+        </h1>
+
+        <div class="form-input">
+            <label for="First Name">First Name</label>
+            <input type="text" id="firstname" placeholder="Enter first name">
+        </div>
+
+        <div class="form-input">
+            <label for="Last Name">Last Name</label>
+            <input type="text" id="lastname" placeholder="Enter last name">
+        </div>
+
+        <div class="form-input">
+            <label for="Contact No">Contact No</label>
+            <input type="mobilenumber" id="number" placeholder="Enter contact number">
+        </div>
+
+        <div class="form-input">
+            <label for="Emailid">Email Id</label>
+            <input type="email" id="emailid" placeholder="Enter email">
+        </div>
+
+        <div id="captchaBackground">
+            <canvas id="captcha">captcha text</canvas>
+            <input id="textBox" type="text" name="text" placeholder="Enter captcha here">
+            <div id="buttons">
+                <input id="submitButton" type="submit">
+                <button id="refreshButton" type="submit">Refresh</button>
+            </div>
+            <span id="output"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
